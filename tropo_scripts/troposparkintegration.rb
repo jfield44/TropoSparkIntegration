@@ -26,7 +26,7 @@ def post_to_spark_dynamic(phone_number, room_id, message)
 end
 
 def delete_sms_retrieval_object(id)
-    uri = URI('https://troposparkintegration.herokuapp.com/sms_retrievals/' + id.to_s)
+    uri = URI('YOUR_TROPO_SPARK_INTEGRATION_SERVER' + id.to_s)
     http = Net::HTTP.new(uri.host, uri.port)
     http.use_ssl = true
     http.verify_mode = OpenSSL::SSL::VERIFY_PEER

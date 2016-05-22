@@ -10,7 +10,7 @@ Get the API key from developer.ciscospark.com and add it to /config/initializers
 
 # Tropo Script
 
-Copy the code from troposparkintegration.rb and paste it into a new application on Tropo.com Then assign a phone number.
+Copy the code from troposparkintegration.rb (https://github.com/jfield44/TropoSparkIntegration/blob/master/tropo_scripts/troposparkintegration.rb) and paste it into a new application on Tropo.com Then assign a phone number.
 
 On lines 7,29, edit the URI to match your Tropo/Spark Integration Server URL
 
