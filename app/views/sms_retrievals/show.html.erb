@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Phone number:</strong>
+  <%= @sms_retrieval.phone_number %>
+</p>
+
+<p>
+  <strong>Room:</strong>
+  <%= @sms_retrieval.room_id %>
+</p>
+
+<%= link_to 'Edit', edit_sms_retrieval_path(@sms_retrieval) %> |
+<%= link_to 'Back', sms_retrievals_path %>

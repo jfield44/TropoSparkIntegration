@@ -1,0 +1,29 @@
+== README
+
+#Spark/Tropo Integration Server
+
+Create a Spark Account to use for the demo (any email provider will work)
+
+Get the API key from developer.ciscospark.com and add it to /config/initializers/cisco_spark.rb
+
+
+
+# Tropo Script
+
+Copy the code from troposparkintegration.rb and paste it into a new application on Tropo.com Then assign a phone number.
+
+On lines 7,29, edit the URI to match your Tropo/Spark Integration Server URL
+
+On Line 24 edit the Bearer Token to be your Spark Account API Key
+
+On Line 44 and 46 of tropo_actions_controller in the Rails project, update the API Tokens for Voice and Messaging to match that of your newly created Tropo Script.
+
+
+
+# Installation
+
+bundle install
+
+rake db:create
+
+rake db:migrate

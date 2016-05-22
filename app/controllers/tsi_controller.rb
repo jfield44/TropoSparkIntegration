@@ -1,0 +1,2 @@
+class TsiController < ApplicationController
+end
